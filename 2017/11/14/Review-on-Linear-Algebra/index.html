@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="hexo," />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -79,16 +79,19 @@
 
 
 
-<meta name="description" content="基础的hexo博客使用方法">
+<meta name="description" content="Eigenvector and eigenvalueThink of a linear transformation, it rotate and shear your original coordinate$  \begin{bmatrix}   3 &amp;amp; 1 \   0 &amp;amp; 2  \end{bmatrix} \tag{0}$
+Now we look at a particular">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo编辑博客的方法">
-<meta property="og:url" content="http://yoursite.com/2017/11/02/hexo生成博客方法/index.html">
+<meta property="og:title" content="Review on Linear Algebra">
+<meta property="og:url" content="http://yoursite.com/2017/11/14/Review-on-Linear-Algebra/index.html">
 <meta property="og:site_name" content="HCaffrey">
-<meta property="og:description" content="基础的hexo博客使用方法">
-<meta property="og:updated_time" content="2017-11-02T14:23:21.000Z">
+<meta property="og:description" content="Eigenvector and eigenvalueThink of a linear transformation, it rotate and shear your original coordinate$  \begin{bmatrix}   3 &amp;amp; 1 \   0 &amp;amp; 2  \end{bmatrix} \tag{0}$
+Now we look at a particular">
+<meta property="og:updated_time" content="2017-11-14T14:18:28.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hexo编辑博客的方法">
-<meta name="twitter:description" content="基础的hexo博客使用方法">
+<meta name="twitter:title" content="Review on Linear Algebra">
+<meta name="twitter:description" content="Eigenvector and eigenvalueThink of a linear transformation, it rotate and shear your original coordinate$  \begin{bmatrix}   3 &amp;amp; 1 \   0 &amp;amp; 2  \end{bmatrix} \tag{0}$
+Now we look at a particular">
 
 
 
@@ -118,13 +121,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2017/11/02/hexo生成博客方法/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/11/14/Review-on-Linear-Algebra/"/>
 
 
 
 
 
-  <title>hexo编辑博客的方法 | HCaffrey</title>
+  <title>Review on Linear Algebra | HCaffrey</title>
   
 
 
@@ -271,7 +274,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/02/hexo生成博客方法/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/14/Review-on-Linear-Algebra/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Alex Huang">
@@ -288,7 +291,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">hexo编辑博客的方法</h1>
+          <h1 class="post-title" itemprop="name headline">Review on Linear Algebra</h1>
         
 
         <div class="post-meta">
@@ -300,8 +303,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-11-02T21:05:51+08:00">
-                2017-11-02
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-11-14T21:51:37+08:00">
+                2017-11-14
               </time>
             
 
@@ -310,28 +313,6 @@
             
           </span>
 
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/博客/" itemprop="url" rel="index">
-                    <span itemprop="name">博客</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
           
 
           
@@ -360,12 +341,9 @@
       
 
       
-        <p>基础的hexo博客使用方法<br><a id="more"></a></p>
-<h2 id="生成博客"><a href="#生成博客" class="headerlink" title="生成博客"></a>生成博客</h2><h3 id="首先用hexo生成新的md文件"><a href="#首先用hexo生成新的md文件" class="headerlink" title="首先用hexo生成新的md文件"></a>首先用hexo生成新的md文件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new &quot;your_new_blog_name&quot;</div></pre></td></tr></table></figure>
-<h3 id="生成"><a href="#生成" class="headerlink" title="生成"></a>生成</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">hexo clean</div><div class="line">hexo g</div><div class="line">hexo s</div></pre></td></tr></table></figure>
-<h2 id="换主题的方法："><a href="#换主题的方法：" class="headerlink" title="换主题的方法："></a>换主题的方法：</h2><h3 id="下载主题资源"><a href="#下载主题资源" class="headerlink" title="下载主题资源"></a>下载主题资源</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git clone https://github.com/iissnan/hexo-theme-next themes/next</div></pre></td></tr></table></figure>
-<h3 id="更新下载主题到-config-yml"><a href="#更新下载主题到-config-yml" class="headerlink" title="更新下载主题到_config.yml"></a>更新下载主题到_config.yml</h3><p>theme: next<br><!--next是我们这次的主题名--></p>
-<h3 id="生成-1"><a href="#生成-1" class="headerlink" title="生成"></a>生成</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">hexo clean</div><div class="line">hexo g</div><div class="line">hexo s</div></pre></td></tr></table></figure>
+        <h2 id="Eigenvector-and-eigenvalue"><a href="#Eigenvector-and-eigenvalue" class="headerlink" title="Eigenvector and eigenvalue"></a>Eigenvector and eigenvalue</h2><p>Think of a linear transformation, it rotate and shear your original coordinate<br>$<br>  \begin{bmatrix}<br>   3 &amp; 1 \<br>   0 &amp; 2<br>  \end{bmatrix} \tag{0}<br>$</p>
+<p>Now we look at a particular case: when it make a effect on a vector(from her coordinate system to our …), and the vector remain in the same span</p>
+<p>$P^{-1}MP = \Sigma$<br>where p is M’s eigenvectors in column, meaning a vector $\vec{v}$ will first transform from P’s coordinate system into ours and then go into linear transformation M and return to P’s coordinate system.<br>The special thing about eigenvector is that it remain in the same direction and only scale its size. So the P’s base vector only scales, and the result is that the total transformation will be diagonal matrix<br>$<br>  \begin{bmatrix}<br>   \lambda<em>{1} &amp; 0 \<br>   0 &amp; \lambda</em>{2}<br>  \end{bmatrix} \tag{1}<br>$<br>(diagonal matrix means that it only scales the base vectors)</p>
 
       
     </div>
@@ -381,12 +359,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/hexo/" rel="tag"># hexo</a>
-          
-        </div>
-      
 
       
       
@@ -396,8 +368,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/09/30/C-Study-prologue/" rel="next" title="C++ Study - prologue">
-                <i class="fa fa-chevron-left"></i> C++ Study - prologue
+              <a href="/2017/11/10/time-management-techniques/" rel="next" title="time management techniques">
+                <i class="fa fa-chevron-left"></i> time management techniques
               </a>
             
           </div>
@@ -405,10 +377,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/11/02/托福/" rel="prev" title="托福">
-                托福 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -542,7 +510,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#生成博客"><span class="nav-number">1.</span> <span class="nav-text">生成博客</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#首先用hexo生成新的md文件"><span class="nav-number">1.1.</span> <span class="nav-text">首先用hexo生成新的md文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#生成"><span class="nav-number">1.2.</span> <span class="nav-text">生成</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#换主题的方法："><span class="nav-number">2.</span> <span class="nav-text">换主题的方法：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#下载主题资源"><span class="nav-number">2.1.</span> <span class="nav-text">下载主题资源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#更新下载主题到-config-yml"><span class="nav-number">2.2.</span> <span class="nav-text">更新下载主题到_config.yml</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#生成-1"><span class="nav-number">2.3.</span> <span class="nav-text">生成</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Eigenvector-and-eigenvalue"><span class="nav-number">1.</span> <span class="nav-text">Eigenvector and eigenvalue</span></a></li></ol></div>
             
 
           </div>
